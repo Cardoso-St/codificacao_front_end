@@ -1,0 +1,23 @@
+.box01{
+    width: 300px;
+    height: 100%;
+    background-color: cadetblue;
+    border: 1px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+.box02{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid;
+
+}
+
+body{
+    margin: 0px;
+}
+
