@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    display: flex;
+}
+
+.Principal-container {
+    background-color: white;
+    height: 1300px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imagem {
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.Titulo1 {
+    font-family: "Fraunces", serif;
+}
+
+.Texto1 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.Bloco_rosa {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    height: 100px;
+    padding: 10px;
+    font-family: "Fraunces", serif;
+    color: hsl(30, 10%, 34%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Fraunces", serif;
+}
+
+.Lista2 {
+    margin-left: 18px;
+    font-family: "Fraunces", serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.Lista3 {
+    margin-left: 18px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Fraunces", serif;
+}
+
+.Texto2{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+}
+table {
+    width: 600px;
+    height: 180px;
+    color: hsl(14, 45%, 36%);
+}
+
+
+td {
+    border-bottom: 1px solid hsl(14, 45%, 36%);
+}
+
+.TabelaDireita{
+    font-weight: bold;
+}
+
+/*
+:root{
+
+White: hsl(0, 0%, 100%)
+
+--Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+--Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+
+}
+
+h4{
+    background-color: var();
+} */
