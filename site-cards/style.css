@@ -11,7 +11,6 @@
     --Orange: hsl(34, 97%, 64%);
     --Blue: hsl(212, 86%, 64%);
     --Very-Dark-Blue: hsl(234, 12%, 34%);
-    color: var(--Very-Dark-Blue);
 }
 
 .titulo {
