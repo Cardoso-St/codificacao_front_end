@@ -1,0 +1,30 @@
+:hoot{
+--Green-200: hsl(148, 38%, 91%);
+--Green-600: hsl(169, 82%, 27%);
+--Red: hsl(0, 66%, 54%);
+--White: hsl(0, 0%, 100%);
+--Grey-500: hsl(186, 15%, 59%);
+--Grey-900: hsl(187, 24%, 22%);
+}
+
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(148, 38%, 91%)
+}
+
+.Container, Formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.Radio{
+    border: 10px;
+    border-radius: 2px;
+}
