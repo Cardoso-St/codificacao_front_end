@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,22 +9,51 @@
     <link rel="stylesheet" href="style.css">
     <title>Revisao</title>
 </head>
+
 <body>
-    
+
+
     <div class="Container_Principal">
+
         <div class="Container_Branco">
-            <h1>Mortgage Calculator</h1>
+            <h3 class="Titulo">Mortgage Calculator</h3>
 
-            <label for="Mortgage Amount">Mortgage Amount</label>
-            <input id="Mortgage Amount" type="number">
+            <form class="Formulario">
 
-            <label for="Mortgage Term">Mortgage Term</label>
-            <input id="Mortgage Term" type="">
-            <button>Clear All</button>
-            <div class="Container_Preto">
+                <legend>Mortgage Amount</legend>
+                <label for="Mortgage_amount"></label>
+                <input id="Mortgage_amount" type="number">
 
-            </div>
+                
+
+                    <legend>Mortgage Term</legend>
+                    <label for="Mortgage_term"></label>
+                    <input id="Mortgage_term" type="number">
+
+                    <legend>Interest Rate</legend>
+                    <label for="Interest_rate"></label>
+                    <input id="Interest_rate" type="number">
+
+                
+
+                <legend>Mortgage Type</legend>
+                <label for="Repayment">Repayment</label>
+                <input id="Repayment" type="radio">
+
+                <label for="Interest">Interest Only</label>
+                <input id="Interest" type="radio">
+
+                <button>Calculate Repayments</button>
+                <div class="Container_Preto">
+                    <h3>Your Results</h3>
+
+                    <p>Your results are shown below based on the information you provided.</p>
+                </div>
+            </form>
         </div>
+
+        
     </div>
 </body>
+
 </html>

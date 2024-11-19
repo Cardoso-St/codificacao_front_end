@@ -25,9 +25,39 @@ body{
 .Container_Branco{
     background-color: var(--White);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 15px;
+    border-radius: 4px;
+}
+
+.Titulo{
+  text-align: left;
+}
+.Container_Preto{
+  background-color: var(--Slate-900);
+  border-bottom-left-radius: 50px ;
+}
+
+#Mortgage_amount{
+  padding-left: 300px; 
+  background:url(images/icon-calculator.svg);
+  background-repeat: no-repeat;
+  padding-left:30px;
+
+
+}
+
+#Mortgage_term{
+ 
+}
+
+#Interest_rate{
+
+}
+#Repayment{
+
 }
 
 
